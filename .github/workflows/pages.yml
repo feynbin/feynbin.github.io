@@ -16,7 +16,9 @@ jobs:
         with:
           bun-version: latest
       - name: Install Dependencies
-        run: bun install --verbose && bun install hexo --save
+        run: bun install --verbose 
+      - name: Install hexo
+        run: bun install hexo --save
       - name: Build
         run: bun run build
       - name: Upload Pages artifact
