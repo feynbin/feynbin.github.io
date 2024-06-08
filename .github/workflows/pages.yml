@@ -15,8 +15,6 @@ jobs:
         uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
-      - name: kankan
-        run: cat /home/runner/.bunfig.toml
       - name: Install Dependencies
         run: bun install --verbose && bun install hexo --save
       - name: Build
