@@ -8,3 +8,5 @@ public/
 _multiconfig.yml
 bun.lockb
 .deploy_git
+themes
+scaffolds
