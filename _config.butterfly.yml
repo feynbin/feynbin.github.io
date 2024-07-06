@@ -48,24 +48,23 @@ favicon: /img/favicon.png
 
 # Avatar (头像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  #img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: ./img/test.jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img:
+index_img: ./img/tes.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
-
+default_top_img: 
 # The banner image of archive page
-archive_img:
-
+archive_img: ./img/tes.jpg
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子标签页面的 top_img)
-tag_img:
+tag_img: 
 
 # The banner image of tag page
 # format:
@@ -200,7 +199,7 @@ post_pagination: 1
 
 # Displays outdated notice for a post (文章过期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom
@@ -633,7 +632,7 @@ site_verification:
 # The position of site info, eg: 300px/300em/300rem/10% (主页标题距离顶部距离)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主页top_img高度)
-index_top_img_height: 300px
+index_top_img_height: 
 
 # The user interface setting of category and tag page (category和tag页的UI设置)
 # index - same as Homepage UI (index 值代表 UI将与首页的UI一样)
@@ -647,10 +646,10 @@ text_align_justify: false
 # Website Background (设置网站背景)
 # can set it to color or image (可设置图片 或者 颜色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: 
 
 # Footer Background
-footer_bg: false
+footer_bg: ./img/tes.jpg
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
