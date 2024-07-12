@@ -7,5 +7,4 @@ public/
 .deploy*/
 _multiconfig.yml
 bun.lockb
-.deploy_git
 scaffolds
