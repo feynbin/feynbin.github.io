@@ -74,7 +74,7 @@ default_top_img: transparent #https://img.feynbin.cn/hutao01
 archive_img: # https://img.feynbin.cn/hutao01
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子标签页面的 top_img)
-tag_img: https://img.feynbin.cn/linghua
+tag_img: transparent #https://img.feynbin.cn/linghua
 
 # The banner image of tag page
 # format:
@@ -83,7 +83,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分类页面的 top_img)
-category_img: https://img.feynbin.cn/gy20
+category_img: transparent #https://img.feynbin.cn/gy20
 
 # The banner image of category page
 # format:
