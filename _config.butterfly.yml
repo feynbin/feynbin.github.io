@@ -31,7 +31,6 @@ menu:
 
 # Code Blocks (代码相关)
 # --------------------------------------
-
 highlight_theme: light # darker / pale night / light / ocean / false
 highlight_height_limit: false # unit: px
 code_word_wrap: false
@@ -951,7 +950,7 @@ CDN:
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主题只能设置为 local )
-  internal_provider: local
+  internal_provider: custom
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
@@ -965,7 +964,7 @@ CDN:
   # Custom format
   # https://lib.baomitu.com/${cdnjs_name}/latest/${min_cdnjs_file}
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://sf.akass.cn/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: https://use.sevencdn.com/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
     # abcjs_basic_js:
@@ -1017,7 +1016,7 @@ CDN:
     # snackbar:
     # snackbar_css:
     # translate:
-    twikoo: https://sf.akass.cn/twikoo/1.6.38/twikoo.all.min.js
+    # twikoo: https://sf.akass.cn/twikoo/1.6.38/twikoo.all.min.js
     # typed:
     # utils:
     # valine:
