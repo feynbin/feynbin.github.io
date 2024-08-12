@@ -8,40 +8,48 @@ abbrlink: 9c8675fc
 
 
 
+### 欢迎来到我的博客
 
+我使用hexo + GitHub Pages搭建了这个博客，主题选取的是butterfly。
 
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+配置主题花费了我很多时间，由于butterfly主题的dev版本还很不稳定，我会推荐大家使用master版本使用。
 
-## Quick Start
+### 域名
 
-### Create a new post
+这个博客可以通过以下几个域名来访问。
 
-``` bash
-$ hexo new "My New Post"
+```markdown
+feynbin.github.io # GitHub域名 
+feynbin.cn         # 社区赞助的长期域名，未配置加速
+cdn.feynbin.cn    # 阿里云轻量东京节点
 ```
 
-More info: [Writing](https://hexo.io/docs/writing.html)
 
-### Run server
 
-``` bash
-$ hexo server
-```
+### 本地查看
 
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
+你可以通过拉取 Github 仓库来在本地查看这个博客。
 
 ``` bash
-$ hexo generate
+git clone https://github.com/feynbin/feynbin.github.io
 ```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
+### 安装主题
 
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
+```bash
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+### NPM
+
+使用npm安装需要的依赖
+
+```bash
+npm install 
+```
+
+### 运行
+
+```bash
+npm run server
+```

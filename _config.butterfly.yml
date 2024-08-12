@@ -950,13 +950,13 @@ CDN:
   # The CDN provider of internal scripts (主题内部 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # Dev version can only choose. ( dev版的主题只能设置为 local )
-  internal_provider: custom
+  internal_provider: local
 
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
   # third_party_provider: jsdelivr
-  third_party_provider: custom #unpkg
+  third_party_provider: custom  #unpkg
 
   # Add version number to url, true or false
   version: true
