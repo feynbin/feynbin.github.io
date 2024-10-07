@@ -594,7 +594,7 @@ search:
 share:
   # 选择：sharejs / addtoany
   # 如果不需要分享功能，保持为空
-  use: addtoany
+  use: 
 
   # Share.js
   # https://github.com/overtrue/share.js
@@ -604,7 +604,6 @@ share:
   # AddToAny
   # https://www.addtoany.com/
   addtoany:
-    item: wechat,email,copy_link
     #item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # --------------------------------------
