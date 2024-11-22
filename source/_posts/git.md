@@ -1,5 +1,6 @@
 ---
 title: git
+abbrlink: 69c3279c
 date: 2024-10-10 09:13:41
 updated:
 tags:

@@ -1212,20 +1212,18 @@ inject:
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
 CDN:
-  # 内部和第三方脚本的 CDN 提供商
-  # 两者的选项：local/jsdelivr/unpkg/cdnjs/custom
-  # 注意： Dev 版本只能使用 'local' 作为内部脚本
-  # 注意：将第三方脚本设置为 'local' 时，需要安装 hexo-butterfly-extjs
+  # The CDN provider for internal and third-party scripts
+  # Options for both: local/jsdelivr/unpkg/cdnjs/custom
+  # Note: Dev version can only use 'local' for internal scripts
+  # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: custom
-  #third_party_provider: jsdelivr
+  third_party_provider: jsdelivr
 
-  # 是否在 URL 中添加版本号，true 或 false
-  version: true
-  #version: false
+  # Add version number to url, true or false
+  version: false
 
-  # 自定义格式
-  # 例如：https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://use.sevencdn.com/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format:
 
   option:
