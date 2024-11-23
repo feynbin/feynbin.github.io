@@ -7,7 +7,7 @@ tags:
 categories:
 keywords:
 description:
-top_img:
+top_img: false
 cover:
 highlight_shrink:
 ---
