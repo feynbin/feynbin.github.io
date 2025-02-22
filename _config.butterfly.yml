@@ -58,7 +58,7 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: https://img.feynbin.cn/favicon
+favicon: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
 
 # 头像设置
 avatar:
@@ -69,6 +69,7 @@ avatar:
 
 # 禁用所有横幅图片
 disable_top_img: false
+#将在每个页面加载
 
 # 如果页面未设置横幅，则显示默认的横幅图片
 default_top_img: transparent
@@ -105,14 +106,10 @@ background: https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wodxgqlvxpDIY
 
 # 封面设置
 cover:
-  # 是否禁用封面
+  # 是否显示文章封面
   index_enable: true
   aside_enable: true
   archives_enable: true
-  # 主页封面的位置
-  # 选择: left/right/both
-  position: both
-  # 当未设置封面时，显示默认封面
   default_cover:
     - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79z3wwdpm1qDIYPDIr0AqexDcxPDdY1.webp
     - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojvzewdddv9DIYPDIr0AqexDcxPDdY1.webp
@@ -226,9 +223,9 @@ cover:
 # 替换损坏的图片
 error_img:
   # 友链页面的错误图片
-  flink: https://img.feynbin.cn/friend_404
+  flink: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
   # 文章页面的错误图片
-  post_page: https://img.feynbin.cn/404
+  post_page: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
 
 # 简单的 404 页面
 error_404:
@@ -237,8 +234,7 @@ error_404:
   # 404 页面的副标题
   subtitle: '命中未配置网页'
   # 404 页面的卡片背景图片
-  background: https://img.feynbin.cn/notfound
-
+  background: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
 # 文章元数据设置
 post_meta:
   # 主页页面
@@ -415,7 +411,7 @@ footer:
     # 网站创建年份
     since: 2024
   # 自定义文本
-  custom_text: 本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlykn1m3xccoDIYPDIr0AqexDcxPDdY1.webp" height="20" alt="CDN服务"></a>提供CDN加速/云存储服务
+  custom_text: '本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlykn1m3xccoDIYPDIr0AqexDcxPDdY1.webp" height="20" alt="CDN服务"></a>提供CDN加速/云存储服务<br>苏ICP备2022032038号'
   # 主题和框架的版权声明
   copyright: true
 
@@ -1316,14 +1312,15 @@ CDN:
   # Options for both: local/jsdelivr/unpkg/cdnjs/custom
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
-  internal_provider: custom
-  third_party_provider: custom
+  internal_provider: local
+  third_party_provider: jsdelivr
 
   # Add version number to url, true or false
   version: true
 
   # Custom format
-  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://s4.zstatic.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+  # For example: https://s4.zstatic.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
+  #custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: https://npm.akass.cn/${name}@${version}/${min_file}
 
   option:

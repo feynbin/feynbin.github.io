@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 费冰的博客
+title: 	费冰的数据视角
 subtitle: ''
 description: '懒癌患者'
-keywords: '博客,技术,前端,后端,全栈'
+keywords: '大数据,后端,云计算'
 author: feynbin
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -40,9 +40,9 @@ public_dir: public
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
-code_dir: downloads/code
+code_dir: dl
 i18n_dir: :lang
-skip_render:
+skip_render: dl/** 
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -117,4 +117,4 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:feynbin/feynbin.github.io.git
-  branch: gh-pages
+  branch: page
