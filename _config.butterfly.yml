@@ -15,7 +15,7 @@ menu:
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  友链: /links/ || fas fa-link
+  #友链: /links/ || fas fa-link
   关于: /about/ || fas fa-heart
   # 首页: / || fas fa-home
   # 列表||fas fa-list:
@@ -58,12 +58,12 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
+favicon: https://img.feynbin.cn/blogfavicon.png
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
+  img: https://img.feynbin.cn/blogfavicon.png
   # 是否启用头像效果
   effect: false
 
@@ -102,7 +102,7 @@ footer_img: transparent
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wodxgqlvxpDIYPDIr0AqexDcxPDdY1.webp
+background: https://img.feynbin.cn/2405007.jpg
 
 # 封面设置
 cover:
@@ -111,130 +111,110 @@ cover:
   aside_enable: true
   archives_enable: true
   default_cover:
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79z3wwdpm1qDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojvzewdddv9DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2x1vxgrck2oDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79tc6wdddc6DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5k3tgqok71DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5vrh14ajv1DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2ww3bgr0u4pDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek21ch14mjykDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojpccwd0sq8DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5vao1497viDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wvm4gqzufrDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojoumwczgm0DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek20uy14lfpaDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79se3wdbqysDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5j5ogqm4toDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek20d614ktsoDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79rwgwda2riDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5t2a144pg4DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5gqvgqhtorDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5smh143iayDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79phvwd54i9DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojlxzwctsqpDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2ws7agqsyc8DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5g9tgqgqzlDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojkynwcrr5lDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5r9y1403kmDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79o1rwd2ji9DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojkhjwcqub7DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wqbhgqpsurDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5ettgqdx08DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1u2r14bf71DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojji1wcoex1DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1tlp14aeebDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79n3bwd0la1DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek24oy14teueDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojsr1wd7hgbDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5nokgquqxoDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79w86wdj403DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o609514gqb2DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wz02gr65usDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojs9twd6wqiDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek247p14sbxfDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5n60gqt2n9DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79vr0wdin0nDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wyj2gr54i5DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5zst14fl1mDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek23qj14rgphDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojrslwd55orDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79v9lwdhedzDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5mlpgqs58pDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wy1vgr4t0iDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek239j14qefdDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5zcz14ece7DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojrblwd4zkmDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wxksgr3yfbDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemj5ljxgqrb24DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek22s314p348DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79ub3wdfvscDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5yvc14dj28DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ojqs3wd3l6qDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2wx1zgr211eDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek22aw14o3spDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacxx41tdbpfDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ravy91on3zwDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx758tlm6zl11DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxne1m29ltxDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5zw96klzxxDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzhfj6fvy3uDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacxfw1tccn0DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4rav911omdddDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx758bjm6yqxrDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxmwmm28axmDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5zff6kki8uDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacwyu1tb2pxDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzgzq6fuyeyDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx757uem6xig0DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4raumc1olrzgDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxmf7m27u9nDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzgil6ftthkDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5yy86kj12kDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacwgp1tay7lDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4rats91okp0uDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxlxgm260qxDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx757dbm6w3gtDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzg316fs6qjDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5ygg6kiy9cDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacvx61t9lj7DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx756w9m6vtcfDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0d79z3wwdpm1qDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx2x1vxgrck2oDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacswt1t8vvrDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek21ch14mjykDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6o5vao1497viDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4ras7r1oiesoDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx756ebm6u1tpDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5xi16kgkcmDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxky7m24qwiDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzf716fq366DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacsfl1t7wlsDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0n000d5qavf4rareo1ohagfDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx755wnm6tjdrDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5x0o6kfz50DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlxkh6m23vtcDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0n000d5qav0dacryk1t66zyDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/ymjew503t0l000d5qave6qzeqj6fptrjDIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0m000d5qauzx755f5m6sdi2DIYPDIr0AqexDcxPDdY1.webp
-    - https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzen5wit6kev8jDIYPDIr0AqexDcxPDdY1.webp
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
-
-# 替换损坏的图片
-error_img:
-  # 友链页面的错误图片
-  flink: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
-  # 文章页面的错误图片
-  post_page: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
+    - https://img.feynbin.cn/2501001.jpg
+    - https://img.feynbin.cn/2501002.jpg
+    - https://img.feynbin.cn/2501003.jpg
+    - https://img.feynbin.cn/2501004.jpg
+    - https://img.feynbin.cn/2501005.jpg
+    - https://img.feynbin.cn/2501006.jpg
+    - https://img.feynbin.cn/2501007.jpg
+    - https://img.feynbin.cn/2501008.jpg
+    - https://img.feynbin.cn/2501009.jpg
+    - https://img.feynbin.cn/2501010.jpg
+    - https://img.feynbin.cn/2501011.jpg
+    - https://img.feynbin.cn/2501012.jpg
+    - https://img.feynbin.cn/2501013.jpg
+    - https://img.feynbin.cn/2501014.jpg
+    - https://img.feynbin.cn/2501015.jpg
+    - https://img.feynbin.cn/2501016.jpg
+    - https://img.feynbin.cn/2501017.jpg
+    - https://img.feynbin.cn/2501018.jpg
+    - https://img.feynbin.cn/2501019.jpg
+    - https://img.feynbin.cn/2501020.jpg
+    - https://img.feynbin.cn/2501021.jpg
+    - https://img.feynbin.cn/2501022.jpg
+    - https://img.feynbin.cn/2501023.jpg
+    - https://img.feynbin.cn/2501024.jpg
+    - https://img.feynbin.cn/2501025.jpg
+    - https://img.feynbin.cn/2501026.jpg
+    - https://img.feynbin.cn/2501027.jpg
+    - https://img.feynbin.cn/2501028.jpg
+    - https://img.feynbin.cn/2501029.jpg
+    - https://img.feynbin.cn/2501030.jpg
+    - https://img.feynbin.cn/2501031.jpg
+    - https://img.feynbin.cn/2501032.jpg
+    - https://img.feynbin.cn/2501033.jpg
+    - https://img.feynbin.cn/2501034.jpg
+    - https://img.feynbin.cn/2501035.jpg
+    - https://img.feynbin.cn/2501036.jpg
+    - https://img.feynbin.cn/2501037.jpg
+    - https://img.feynbin.cn/2501038.jpg
+    - https://img.feynbin.cn/2501039.jpg
+    - https://img.feynbin.cn/2501040.jpg
+    - https://img.feynbin.cn/2501041.jpg
+    - https://img.feynbin.cn/2501042.jpg
+    - https://img.feynbin.cn/2501043.jpg
+    - https://img.feynbin.cn/2501044.jpg
+    - https://img.feynbin.cn/2501045.jpg
+    - https://img.feynbin.cn/2501046.jpg
+    - https://img.feynbin.cn/2501047.jpg
+    - https://img.feynbin.cn/2501048.jpg
+    - https://img.feynbin.cn/2501049.jpg
+    - https://img.feynbin.cn/2501050.jpg
+    - https://img.feynbin.cn/2501051.jpg
+    - https://img.feynbin.cn/2501052.jpg
+    - https://img.feynbin.cn/2501053.jpg
+    - https://img.feynbin.cn/2501054.jpg
+    - https://img.feynbin.cn/2501055.jpg
+    - https://img.feynbin.cn/2501056.jpg
+    - https://img.feynbin.cn/2501057.jpg
+    - https://img.feynbin.cn/2501058.jpg
+    - https://img.feynbin.cn/2501059.jpg
+    - https://img.feynbin.cn/2501060.jpg
+    - https://img.feynbin.cn/2501061.jpg
+    - https://img.feynbin.cn/2501062.jpg
+    - https://img.feynbin.cn/2501063.jpg
+    - https://img.feynbin.cn/2501064.jpg
+    - https://img.feynbin.cn/2501065.jpg
+    - https://img.feynbin.cn/2501066.jpg
+    - https://img.feynbin.cn/2501067.jpg
+    - https://img.feynbin.cn/2501068.jpg
+    - https://img.feynbin.cn/2501069.jpg
+    - https://img.feynbin.cn/2501070.jpg
+    - https://img.feynbin.cn/2501071.jpg
+    - https://img.feynbin.cn/2501072.jpg
+    - https://img.feynbin.cn/2501073.jpg
+    - https://img.feynbin.cn/2501074.jpg
+    - https://img.feynbin.cn/2501075.jpg
+    - https://img.feynbin.cn/2501076.jpg
+    - https://img.feynbin.cn/2501077.jpg
+    - https://img.feynbin.cn/2501078.jpg
+    - https://img.feynbin.cn/2501079.jpg
+    - https://img.feynbin.cn/2501080.jpg
+    - https://img.feynbin.cn/2501081.jpg
+    - https://img.feynbin.cn/2501082.jpg
+    - https://img.feynbin.cn/2501083.jpg
+    - https://img.feynbin.cn/2501084.jpg
+    - https://img.feynbin.cn/2501085.jpg
+    - https://img.feynbin.cn/2501086.jpg
+    - https://img.feynbin.cn/2501087.jpg
+    - https://img.feynbin.cn/2501088.jpg
+    - https://img.feynbin.cn/2501089.jpg
+    - https://img.feynbin.cn/2501090.jpg
+    - https://img.feynbin.cn/2501091.jpg
+    - https://img.feynbin.cn/2501092.jpg
+    - https://img.feynbin.cn/2501093.jpg
+    - https://img.feynbin.cn/2501094.jpg
+    - https://img.feynbin.cn/2501095.jpg
 
 # 简单的 404 页面
 error_404:
   # 是否启用 404 页面
   enable: true
   # 404 页面的副标题
-  subtitle: '命中未配置网页'
+  subtitle: '页面没有找到'
   # 404 页面的卡片背景图片
-  background: https://vip.123pan.cn/1811976140/yk6baz03t0l000d5qauzek1s4e1470mqDIYPDIr0AqexDcxPDdY1.webp
+  background: https://img.feynbin.cn/error404.png
 # 文章元数据设置
 post_meta:
   # 主页页面
@@ -351,10 +331,10 @@ reward:
   # 打赏案例文本
   text: 请我喝杯咖啡
   QR_code:
-    - img: https://img.feynbin.cn/alipay
+    - img: https://file.feynbin.cn/reward_ali.jpg
       link:
       text: alipay
-    - img: https://img.feynbin.cn/mm_reward_qrcode
+    - img: https://file.feynbin.cn/reward_qrcode.png
       link:
       text: wechat_reward
     # - img: /img/wechat.jpg
@@ -411,7 +391,7 @@ footer:
     # 网站创建年份
     since: 2024
   # 自定义文本
-  custom_text: '本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://vip.123pan.cn/1811976140/ymjew503t0m000d5qavemlykn1m3xccoDIYPDIr0AqexDcxPDdY1.webp" height="20" alt="CDN服务"></a>提供CDN加速/云存储服务<br>苏ICP备2022032038号'
+  custom_text: '本网站由<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://file.feynbin.cn/upyun.webp" height="20" alt="CDN服务"></a>提供CDN加速/云存储服务<br>苏ICP备2022032038号'
   # 主题和框架的版权声明
   copyright: true
 
@@ -910,8 +890,7 @@ crisp:
 
 # 百度统计配置
 # 官方网站：https://tongji.baidu.com/web/welcome/login
-baidu_analytics: 7022c612043efcd757f8c2e58ac353c4
-
+baidu_analytics: 
 # 谷歌分析配置
 # 官方网站：https://analytics.google.com/analytics/web/
 google_analytics:
@@ -922,8 +901,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity 分析配置
 # 官方网站：https://clarity.microsoft.com/
-microsoft_clarity: n5sys0rx8r
-
+microsoft_clarity: 
 # --------------------------------------
 # 广告配置
 # --------------------------------------
