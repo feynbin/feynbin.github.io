@@ -910,13 +910,13 @@ google_adsense:
   # 是否启用
   enable: false
   # 是否自动投放广告
-  auto_ads: true
+  auto_ads: false
   # 广告脚本 URL
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  js: 
   # 客户 ID
   client:
   # 是否启用页面级广告
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # 手动插入广告配置，如果不需要广告则留空
 ad:
@@ -1001,7 +1001,7 @@ preloader:
   # 资源
   # 1. 全屏加载
   # 2. 进度条
-  source: 1
+  source: 2
   # pace 主题 (参见 https://codebyzach.github.io/pace/)
   pace_css_url:
 
@@ -1285,19 +1285,9 @@ inject:
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
 CDN:
-  # The CDN provider for internal and third-party scripts
-  # Options for both: local/jsdelivr/unpkg/cdnjs/custom
-  # Note: Dev version can only use 'local' for internal scripts
-  # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: jsdelivr
-
-  # Add version number to url, true or false
+  third_party_provider: custom
   version: true
-
-  # Custom format
-  # For example: https://s4.zstatic.net/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}
-  #custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
-  custom_format: https://npm.akass.cn/${name}@${version}/${min_file}
+  custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
 
   option:
