@@ -20,7 +20,7 @@ highlight_shrink:
    在项目根目录下运行：
 
    ```
-   bunx hexo new "记一次 Hexo 的体验"
+   bun hexo new "记一次 Hexo 的体验"
    ```
 
    - 文件会生成在 `source/_posts/记一次 Hexo 的体验.md`。
