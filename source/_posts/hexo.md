@@ -20,9 +20,7 @@ top_img: false
 这个博客可以通过以下几个域名来访问。
 
 ```markdown
-feynbin.github.io # GitHub域名 
-feynbin.cn         # 社区赞助的长期域名，未配置加速
-cdn.feynbin.cn    # 阿里云轻量东京节点
+feynbin.cn         # 社区赞助的长期域名，博客部署在华为云服务器上，通过又拍云加速
 ```
 
 
