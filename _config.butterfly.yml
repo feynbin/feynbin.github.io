@@ -1285,9 +1285,15 @@ inject:
 # CDN 设置
 # 除非你知道它们的工作原理，否则不要修改以下设置
 CDN:
+  # The CDN provider for internal and third-party scripts
+  # Options for both: local/jsdelivr/unpkg/cdnjs/custom
+  # Note: Dev version can only use 'local' for internal scripts
+  # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: custom
+  third_party_provider: jsdelivr
+
   version: true
-  custom_format: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+
+  custom_format:
 
   option:
