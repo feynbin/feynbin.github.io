@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages-${{ github.ref }}"
+  group: "pages-${ { github.ref } }"
   cancel-in-progress: false
 
 jobs:
@@ -21,38 +21,45 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          submodules: true
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: 'npm'
+      - name: Initialize submodules
+        run: |
+          git submodule sync --recursive
+          git submodule update --init --recursive --force
 
-      - name: Cache npm dependencies
+      # 🔥 核心更改：使用 Bun 替代 Node.js/npm
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 'latest'
+
+      - name: Cache Bun dependencies
         uses: actions/cache@v4
-        id: npm-cache
+        id: bun-cache
         with:
           path: |
+            ~/.bun/install/cache
             node_modules
-            ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb', '**/package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
 
-      - name: Install Dependencies
+      - name: Install Dependencies with Bun
         run: |
-          if [ -f package-lock.json ]; then
-            npm ci
+          if [ -f bun.lockb ]; then
+            bun install --frozen-lockfile
           else
-            npm install
+            bun install
           fi
 
       - name: Build with Hexo
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
         run: |
-          npx hexo clean
-          npx hexo generate --silent
+          bunx hexo clean
+          bunx hexo generate --silent
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
