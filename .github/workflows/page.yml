@@ -29,7 +29,6 @@ jobs:
           git submodule sync --recursive
           git submodule update --init --recursive --force
 
-      # 🔥 核心更改：使用 Bun 替代 Node.js/npm
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
         with:
