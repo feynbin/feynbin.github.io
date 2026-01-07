@@ -11,11 +11,11 @@ cover:
 highlight_shrink:
 ---
 
-# Go语言简介（2025年全新版）
+# Go语言简介
 
 ## 阵容豪华的创始人团队
 
-### Ken Thompson（现年82岁）
+### Ken Thompson
 
 - 1966年：加入贝尔实验室，参与Multics项目，期间创造B语言，并用一个月时间开发UNICS（后改名为UNIX）操作系统。
 - 1971年：与丹尼斯·利奇（Dennis Ritchie）共同发明C语言。
@@ -24,20 +24,20 @@ highlight_shrink:
 - 2000年：离开贝尔实验室，成为飞行员。
 - 2006年：加入Google。
 - 2007年：64岁时与Rob Pike、Robert Griesemer共同发起Go语言项目。
-- **2025年现状**：已从Google退休，但仍作为“杰出工程师”参与Go语言设计讨论。
+- 2025年：已从Google退休，但仍作为“杰出工程师”参与Go语言设计讨论。
 
-### Rob Pike（Go语言项目总负责人）
+### Rob Pike
 
 - 贝尔实验室Unix和Plan 9操作系统核心成员。
 - UTF-8字符集规范的主要设计者之一。
 - 《UNIX编程环境》和《程序设计实践》作者之一。
 - 奥运银牌得主（射箭项目）。
-- **2025年现状**：依然活跃在Go核心团队，主导语言演进方向。其配偶Renee French设计的Gopher吉祥物已成为全球Go开发者共同符号。
+- 2025年：依然活跃在Go核心团队，主导语言演进方向。其配偶Renee French设计的Gopher吉祥物已成为全球Go开发者共同符号。
 
 ### Robert Griesemer
 
 - 参与开发V8 JavaScript引擎和Java HotSpot虚拟机。
-- **2025年现状**：继续负责Go语言类型系统和编译器前端的核心设计与优化。
+- 2025年：继续负责Go语言类型系统和编译器前端的核心设计与优化。
 
 ## 起源
 
@@ -56,13 +56,7 @@ highlight_shrink:
 - **2024.08.06**：发布Go 1.23，继续优化泛型、工具链和运行时。
 - **2025年**：当前稳定版本为 **Go 1.25.5**。语言已高度成熟，专注于性能提升、工具链完善和开发者体验优化。
 
-https://www.tiobe.com/tiobe-index/res/tiobe-index-2025-go.png
-*参考TIOBE编程语言排行榜（2025年1月），Go长期稳居前10名。*
-
-https://madnight.github.io/githut/res/pull_requests_2024_q4.png
-*参考GitHut数据，Go在GitHub上的活跃度（PRs）持续位居前列。*
-
-## 现状（2025年）
+## 现状
 
   Go语言已成为**云原生时代的基础性语言**。在容器、微服务、API网关、分布式数据库、区块链、DevOps工具等领域占据主导地位。
 
@@ -70,7 +64,7 @@ https://madnight.github.io/githut/res/pull_requests_2024_q4.png
 - **全球**：Google、Uber、Twitch、Dropbox、Cloudflare等公司大规模使用Go构建其核心基础设施。
 - **薪酬**：全球范围内，Go开发工程师薪酬持续处于高位，尤其在云计算和基础设施领域需求旺盛。
 
-## Go语言的优劣（2025年视角）
+## Go语言的优劣
 
 ### 优势
 
@@ -91,7 +85,7 @@ https://madnight.github.io/githut/res/pull_requests_2024_q4.png
 3. **包管理灵活性**：`go mod`的“最小版本选择”原则有时与某些团队的精细版本控制需求不匹配。
 4. **并非“全能”语言**：不适合需要复杂继承关系的业务系统、桌面GUI应用或移动端原生开发。
 
-## Go语言的应用场景（2025年）
+## Go语言的应用场景
 
 1. **云原生基础设施**：**Kubernetes、Docker、etcd、Istio、Prometheus** 等核心项目均由Go编写。
 2. **高性能后端服务/微服务**：API网关、用户中心、订单处理等，依托其高并发和低内存占用特性。
@@ -102,7 +96,7 @@ https://madnight.github.io/githut/res/pull_requests_2024_q4.png
 7. **AI/MLOps基础设施**：越来越多的机器学习平台和服务端推理框架使用Go构建管理面和代理层。
 8. **边缘计算**：其小巧的二进制文件和低资源消耗非常适合边缘设备。
 
-## 开发环境搭建（2025年）
+## 开发环境搭建
 
 1. **下载**：访问 https://go.dev/dl/ 下载最新稳定版（当前为go1.25.5）。
 
@@ -133,8 +127,6 @@ https://madnight.github.io/githut/res/pull_requests_2024_q4.png
    go env -w GOPROXY=https://goproxy.cn,direct
    ```
 
-   
-
 6. **集成开发环境**：
 
    - **JetBrains GoLand**：功能最全面的商业IDE。
@@ -143,9 +135,7 @@ https://madnight.github.io/githut/res/pull_requests_2024_q4.png
 
 ## 第一个Go程序 (Hello, 2025!)
 
-go
-
-```
+```go
 // main.go
 package main
 
@@ -162,8 +152,6 @@ func goVersion() string {
 }
 ```
 
-
-
 运行它：
 
 bash
@@ -176,9 +164,7 @@ go run main.go
 
 ## Go命令介绍（核心子集）
 
-bash
-
-```
+```bash
 # 初始化新模块（项目）
 go mod init example.com/hello
 

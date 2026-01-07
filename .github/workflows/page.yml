@@ -36,14 +36,6 @@ jobs:
           node-version: 'lts/*'
           cache: 'npm'
           
-      - name: Check npm config
-        run: |
-          echo "=== 显示所有 npm 配置 ==="
-          npm config list
-          echo ""
-          echo "=== 单独检查 registry 设置 ==="
-          npm config get registry
-
       - name: Cache npm dependencies
         uses: actions/cache@v5
         id: npm-cache
