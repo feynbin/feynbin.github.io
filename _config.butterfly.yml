@@ -58,12 +58,12 @@ social:
 # --------------------------------------
 
 # 网站的 favicon 图标
-favicon: https://img.feynbin.cn/blogfavicon.png
+favicon: https://img.feynbin.cn/2026/01/014c02aa6d7bb2e47cbf6b0a8ad88cac.webp
 
 # 头像设置
 avatar:
   # 头像图片链接
-  img: https://img.feynbin.cn/blogfavicon.png
+  img: https://img.feynbin.cn/2026/01/014c02aa6d7bb2e47cbf6b0a8ad88cac.webp
   # 是否启用头像效果
   effect: false
 
@@ -102,7 +102,7 @@ footer_img: transparent
 # 网站背景
 # 可以设置为颜色或图片
 # 图片格式: url(http://xxxxxx.com/xxx.jpg)
-background: https://img.feynbin.cn/2405007.jpg
+background: https://img.feynbin.cn/2026/01/b6f6dc72ff93b1aedae61e006cb8c75b.webp
 
 # 封面设置
 cover:
