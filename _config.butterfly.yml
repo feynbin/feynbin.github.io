@@ -111,100 +111,59 @@ cover:
   aside_enable: true
   archives_enable: true
   default_cover:
-    - https://img.feynbin.cn/2501001.jpg
-    - https://img.feynbin.cn/2501002.jpg
-    - https://img.feynbin.cn/2501003.jpg
-    - https://img.feynbin.cn/2501004.jpg
-    - https://img.feynbin.cn/2501005.jpg
-    - https://img.feynbin.cn/2501006.jpg
-    - https://img.feynbin.cn/2501007.jpg
-    - https://img.feynbin.cn/2501008.jpg
-    - https://img.feynbin.cn/2501009.jpg
-    - https://img.feynbin.cn/2501010.jpg
-    - https://img.feynbin.cn/2501011.jpg
-    - https://img.feynbin.cn/2501012.jpg
-    - https://img.feynbin.cn/2501013.jpg
-    - https://img.feynbin.cn/2501014.jpg
-    - https://img.feynbin.cn/2501015.jpg
-    - https://img.feynbin.cn/2501016.jpg
-    - https://img.feynbin.cn/2501017.jpg
-    - https://img.feynbin.cn/2501018.jpg
-    - https://img.feynbin.cn/2501019.jpg
-    - https://img.feynbin.cn/2501020.jpg
-    - https://img.feynbin.cn/2501021.jpg
-    - https://img.feynbin.cn/2501022.jpg
-    - https://img.feynbin.cn/2501023.jpg
-    - https://img.feynbin.cn/2501024.jpg
-    - https://img.feynbin.cn/2501025.jpg
-    - https://img.feynbin.cn/2501026.jpg
-    - https://img.feynbin.cn/2501027.jpg
-    - https://img.feynbin.cn/2501028.jpg
-    - https://img.feynbin.cn/2501029.jpg
-    - https://img.feynbin.cn/2501030.jpg
-    - https://img.feynbin.cn/2501031.jpg
-    - https://img.feynbin.cn/2501032.jpg
-    - https://img.feynbin.cn/2501033.jpg
-    - https://img.feynbin.cn/2501034.jpg
-    - https://img.feynbin.cn/2501035.jpg
-    - https://img.feynbin.cn/2501036.jpg
-    - https://img.feynbin.cn/2501037.jpg
-    - https://img.feynbin.cn/2501039.jpg
-    - https://img.feynbin.cn/2501040.jpg
-    - https://img.feynbin.cn/2501041.jpg
-    - https://img.feynbin.cn/2501042.jpg
-    - https://img.feynbin.cn/2501043.jpg
-    - https://img.feynbin.cn/2501044.jpg
-    - https://img.feynbin.cn/2501045.jpg
-    - https://img.feynbin.cn/2501046.jpg
-    - https://img.feynbin.cn/2501047.jpg
-    - https://img.feynbin.cn/2501048.jpg
-    - https://img.feynbin.cn/2501049.jpg
-    - https://img.feynbin.cn/2501050.jpg
-    - https://img.feynbin.cn/2501051.jpg
-    - https://img.feynbin.cn/2501052.jpg
-    - https://img.feynbin.cn/2501053.jpg
-    - https://img.feynbin.cn/2501054.jpg
-    - https://img.feynbin.cn/2501055.jpg
-    - https://img.feynbin.cn/2501056.jpg
-    - https://img.feynbin.cn/2501057.jpg
-    - https://img.feynbin.cn/2501058.jpg
-    - https://img.feynbin.cn/2501059.jpg
-    - https://img.feynbin.cn/2501060.jpg
-    - https://img.feynbin.cn/2501061.jpg
-    - https://img.feynbin.cn/2501062.jpg
-    - https://img.feynbin.cn/2501063.jpg
-    - https://img.feynbin.cn/2501064.jpg
-    - https://img.feynbin.cn/2501065.jpg
-    - https://img.feynbin.cn/2501066.jpg
-    - https://img.feynbin.cn/2501067.jpg
-    - https://img.feynbin.cn/2501068.jpg
-    - https://img.feynbin.cn/2501069.jpg
-    - https://img.feynbin.cn/2501070.jpg
-    - https://img.feynbin.cn/2501071.jpg
-    - https://img.feynbin.cn/2501072.jpg
-    - https://img.feynbin.cn/2501073.jpg
-    - https://img.feynbin.cn/2501074.jpg
-    - https://img.feynbin.cn/2501075.jpg
-    - https://img.feynbin.cn/2501076.jpg
-    - https://img.feynbin.cn/2501077.jpg
-    - https://img.feynbin.cn/2501078.jpg
-    - https://img.feynbin.cn/2501079.jpg
-    - https://img.feynbin.cn/2501080.jpg
-    - https://img.feynbin.cn/2501081.jpg
-    - https://img.feynbin.cn/2501082.jpg
-    - https://img.feynbin.cn/2501083.jpg
-    - https://img.feynbin.cn/2501084.jpg
-    - https://img.feynbin.cn/2501085.jpg
-    - https://img.feynbin.cn/2501086.jpg
-    - https://img.feynbin.cn/2501087.jpg
-    - https://img.feynbin.cn/2501088.jpg
-    - https://img.feynbin.cn/2501089.jpg
-    - https://img.feynbin.cn/2501090.jpg
-    - https://img.feynbin.cn/2501091.jpg
-    - https://img.feynbin.cn/2501092.jpg
-    - https://img.feynbin.cn/2501093.jpg
-    - https://img.feynbin.cn/2501094.jpg
-    - https://img.feynbin.cn/2501095.jpg
+    - https://img.feynbin.cn/2026/01/022d565ed3b0215469455d5aea9c01e4.webp
+    - https://img.feynbin.cn/2026/01/0de183fc42ba7007a1e0e5efaf118229.webp
+    - https://img.feynbin.cn/2026/01/10edef8751d97a33f61bb8a394812e16.webp
+    - https://img.feynbin.cn/2026/01/12f64013b4424357b3f32f3e6285bca0.webp
+    - https://img.feynbin.cn/2026/01/135621560bdf1fce514c2d7c7d1c0215.webp
+    - https://img.feynbin.cn/2026/01/244d3c2d8d9ea659e684aa2abd0e6808.webp
+    - https://img.feynbin.cn/2026/01/24a255cc9e7081bd09090f1af29078e2.webp
+    - https://img.feynbin.cn/2026/01/260655c14dfbdaa0d70e1a32d6608323.webp
+    - https://img.feynbin.cn/2026/01/27fc1eb043577fff26a74cf5278cb261.webp
+    - https://img.feynbin.cn/2026/01/2b245d7d945d65e00e3b3198e7b97a14.webp
+    - https://img.feynbin.cn/2026/01/31b487e4e8cce1a3bd59368f75b4825d.webp
+    - https://img.feynbin.cn/2026/01/33b0361975b8c1b30c55ddf72e260156.webp
+    - https://img.feynbin.cn/2026/01/433039c6dbc13ab4b7a0d246aa79be9d.webp
+    - https://img.feynbin.cn/2026/01/4919dc1d6029886206f4abeb505588c9.webp
+    - https://img.feynbin.cn/2026/01/4b2f8503fa4b48ea14a0d83a1a5c23a6.webp
+    - https://img.feynbin.cn/2026/01/4c2b528b417d29335ea71197bdd21ecf.webp
+    - https://img.feynbin.cn/2026/01/4ca9138659e69d5558d4acb499d45778.webp
+    - https://img.feynbin.cn/2026/01/53da7e984fb3eb975e4d93b6d0e3b3a9.webp
+    - https://img.feynbin.cn/2026/01/5484a892bfc1137e6e9460e14cb263c3.webp
+    - https://img.feynbin.cn/2026/01/5b637fce0a07559ff21f4a5489a4b3c3.webp
+    - https://img.feynbin.cn/2026/01/5bdf42d2d02eaac891547bdbde76bd99.webp
+    - https://img.feynbin.cn/2026/01/5c1ca9a29dbd3f24b9b2f2a920ae6ec5.webp
+    - https://img.feynbin.cn/2026/01/629a58d978b69ab68d9d0dfaa707d4f3.webp
+    - https://img.feynbin.cn/2026/01/67bb570d2d15a22fae05aa95af7274d9.webp
+    - https://img.feynbin.cn/2026/01/71cfa58efdf6aeddebcbbcee0fe92568.webp
+    - https://img.feynbin.cn/2026/01/7b5205eb936ff18fd61234a29bffc67c.webp
+    - https://img.feynbin.cn/2026/01/7bd34c2a199ef6cb16671536dfe8e79e.webp
+    - https://img.feynbin.cn/2026/01/843fd78400b7d5ef698114c7e370aaaa.webp
+    - https://img.feynbin.cn/2026/01/88959d9fe87f709fae6aa71764eb87b3.webp
+    - https://img.feynbin.cn/2026/01/9a75e662280fb7a1ba080bb90b48f461.webp
+    - https://img.feynbin.cn/2026/01/a38f0296c7ce039ec80699dd5445fe14.webp
+    - https://img.feynbin.cn/2026/01/a87325ebf1ea3c9732f44a3258bd6255.webp
+    - https://img.feynbin.cn/2026/01/abba17d71fa6b5b2180f04a3c284e1af.webp
+    - https://img.feynbin.cn/2026/01/b1eb1f14c983eac6630e05e697addbdc.webp
+    - https://img.feynbin.cn/2026/01/b341d077f4e5e836280b8de3509b5ff2.webp
+    - https://img.feynbin.cn/2026/01/bb19754f59705d11e39e595f7a36b442.webp
+    - https://img.feynbin.cn/2026/01/bb7c139f7afe4d06fa2443df7b388b47.webp
+    - https://img.feynbin.cn/2026/01/c0b6fb8d2c8c4b562169679b46598ce4.webp
+    - https://img.feynbin.cn/2026/01/c3fdeb02b1461557a86293e0c7c63340.webp
+    - https://img.feynbin.cn/2026/01/c9a612d2d3bf3095459aebc094d94e43.webp
+    - https://img.feynbin.cn/2026/01/cc881f8023da16b3a7499d9464c7451e.webp
+    - https://img.feynbin.cn/2026/01/cfe52849ed1766b17a42c3d839f3ac21.webp
+    - https://img.feynbin.cn/2026/01/d01456382dfa06a8d7978fd036b0d2a7.webp
+    - https://img.feynbin.cn/2026/01/d0338cf760846318c813b56348d0a391.webp
+    - https://img.feynbin.cn/2026/01/d4b0caebeb8ce2473142edc072cc0720.webp
+    - https://img.feynbin.cn/2026/01/d4b93e22bbccea80a9f66a9f1b77a8b4.webp
+    - https://img.feynbin.cn/2026/01/ddac14f7b665552079934b967df045ff.webp
+    - https://img.feynbin.cn/2026/01/e62b7ff5ad34c9499b39280674345632.webp
+    - https://img.feynbin.cn/2026/01/ec9ccfb01eaa4b52f342e2ea1e580d09.webp
+    - https://img.feynbin.cn/2026/01/f4e2b6f58fa9fa3fa20d2c49e76e9c2c.webp
+    - https://img.feynbin.cn/2026/01/f972caa8eab961126ba81774cc18fda6.webp
+    - https://img.feynbin.cn/2026/01/fd21fd568c0263b2f621ed3f62ba90ca.webp
+    - https://img.feynbin.cn/2026/01/fe5c94081d1d53d0a03b2b844f4de981.webp
 
 # 简单的 404 页面
 error_404:
@@ -213,7 +172,7 @@ error_404:
   # 404 页面的副标题
   subtitle: '页面没有找到'
   # 404 页面的卡片背景图片
-  background: https://img.feynbin.cn/error404.png
+  background: https://img.feynbin.cn/2026/01/0f1e6d435a26b731296fdd336d5dbc37.webp
 # 文章元数据设置
 post_meta:
   # 主页页面
@@ -326,7 +285,7 @@ post_copyright:
 # 贊助/打赏
 reward:
   # 是否启用打赏
-  enable: true
+  enable: false
   # 打赏案例文本
   text: 请我喝杯咖啡
   QR_code:
@@ -434,7 +393,7 @@ aside:
     # 是否显示公告卡片
     enable: true
     # 公告内容
-    content: 各项事宜请直接联系我feynbin@qq.com
+    content: 各项事宜请直接联系我feynbin@gmail.com
   card_recent_post:
     # 是否显示最近文章卡片
     enable: true
