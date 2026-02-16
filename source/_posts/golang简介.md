@@ -1,9 +1,10 @@
 ---
 title: golang简介
 top_img: false
+tags: golang
+abbrlink: d0ea244
 date: 2026-01-04 10:03:02
 updated:
-tags: "golang"
 categories:
 keywords:
 description:
