@@ -20,7 +20,7 @@ highlight_shrink:
 博客目录运行：
 
 ```
-npm run new "newpost"
+hexo new "newpost"
 ```
 
 - 文件会生成在 `source/_posts/newpost.md`。
