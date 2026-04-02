@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言结构体
 
-> 本文是Go语言学习系列的第八篇。前七篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)，建议先行阅读。
-
 Go没有 `class` 关键字，但结构体（struct）承担了面向对象中"类"的角色。结构体定义数据结构，方法定义行为，组合替代继承——这是Go的面向对象哲学。
 
 ---

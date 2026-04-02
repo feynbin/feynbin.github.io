@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言单元测试
 
-> 本文是Go语言学习系列的第十五篇。前十四篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)、[《Go语言自定义类型与接口》](/posts/c9e2f6a/)、[《Go语言协程与信道》](/posts/d3f4a7b/)、[《Go语言线程安全与sync.Map》](/posts/e4a8b2c/)、[《Go语言错误与异常处理》](/posts/f5b9c3d/)、[《Go语言泛型》](/posts/a6c0d4e/)、[《Go语言文件操作》](/posts/a7d1e5f/)，建议先行阅读。
-
 Go语言自带了一套轻量级的测试框架——`testing` 包和 `go test` 命令。不需要引入第三方框架，开箱即用就能完成单元测试、基准测试和示例测试。这套工具的设计哲学和Go一脉相承：**简单、显式、够用**。
 
 ---

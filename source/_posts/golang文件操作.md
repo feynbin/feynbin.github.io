@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言文件操作
 
-> 本文是Go语言学习系列的第十四篇。前十三篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)、[《Go语言自定义类型与接口》](/posts/c9e2f6a/)、[《Go语言协程与信道》](/posts/d3f4a7b/)、[《Go语言线程安全与sync.Map》](/posts/e4a8b2c/)、[《Go语言错误与异常处理》](/posts/f5b9c3d/)、[《Go语言泛型》](/posts/a6c0d4e/)，建议先行阅读。
-
 文件操作是实际开发中的高频需求——配置读取、日志写入、数据导入导出都离不开它。Go标准库通过 `os`、`io`、`bufio` 三个包提供了从底层到高层的完整文件操作能力。
 
 ---

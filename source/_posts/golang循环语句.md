@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言循环语句
 
-> 本文是Go语言学习系列的第五篇。前四篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)，建议先行阅读。
-
 Go只有一个循环关键字——`for`。没有 `while`、没有 `do-while`，但通过 `for` 的不同写法可以覆盖所有循环场景。简洁统一，这就是Go的风格。
 
 ---

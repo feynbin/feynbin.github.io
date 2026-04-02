@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言init与defer
 
-> 本文是Go语言学习系列的第七篇。前六篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)，建议先行阅读。
-
 `init` 和 `defer` 是Go中两个特殊的函数机制。`init` 负责包的初始化，在程序启动时自动执行；`defer` 负责延迟调用，在函数返回前执行。两者都不需要手动调用，由运行时自动管理。
 
 ---

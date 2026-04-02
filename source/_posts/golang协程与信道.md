@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言协程与信道
 
-> 本文是Go语言学习系列的第十篇。前九篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)、[《Go语言自定义类型与接口》](/posts/c9e2f6a/)，建议先行阅读。
-
 并发是Go语言的核心竞争力。Go通过goroutine（协程）和channel（信道）提供了一套简洁而强大的并发编程模型，遵循CSP（Communicating Sequential Processes）理念——**不要通过共享内存来通信，而要通过通信来共享内存**。
 
 ---

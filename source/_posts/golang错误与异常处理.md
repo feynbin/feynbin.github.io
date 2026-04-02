@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言错误与异常处理
 
-> 本文是Go语言学习系列的第十二篇。前十一篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)、[《Go语言自定义类型与接口》](/posts/c9e2f6a/)、[《Go语言协程与信道》](/posts/d3f4a7b/)、[《Go语言线程安全与sync.Map》](/posts/e4a8b2c/)，建议先行阅读。
-
 Go语言没有 `try/catch` 异常捕获机制——这是**刻意的设计选择**。Go认为错误是程序的正常组成部分，应该被显式处理而非隐藏在异常流中。函数作为Go的一等公民，通过多返回值将error作为结果的一部分返回，调用方必须决定如何处理它。
 
 ---

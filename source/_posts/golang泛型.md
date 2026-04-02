@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言泛型
 
-> 本文是Go语言学习系列的第十三篇。前十二篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)、[《Go语言自定义类型与接口》](/posts/c9e2f6a/)、[《Go语言协程与信道》](/posts/d3f4a7b/)、[《Go语言线程安全与sync.Map》](/posts/e4a8b2c/)、[《Go语言错误与异常处理》](/posts/f5b9c3d/)，建议先行阅读。
-
 泛型（Generics）是Go 1.18引入的重大特性。在此之前，处理多种类型要么用 `interface{}` 丢失类型安全，要么为每种类型复制一份代码。泛型让我们可以编写**一份代码处理多种类型，同时保留编译期类型检查**。
 
 ---

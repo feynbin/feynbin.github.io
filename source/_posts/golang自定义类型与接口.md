@@ -14,8 +14,6 @@ highlight_shrink:
 
 # Go语言自定义类型与接口
 
-> 本文是Go语言学习系列的第九篇。前八篇：[《golang简介》](/posts/d0ea244/)、[《Go语言变量》](/posts/a1b2c3d/)、[《Go语言数组、切片与Map》](/posts/b3f5e78/)、[《Go语言判断语句》](/posts/c4d6e9f/)、[《Go语言循环语句》](/posts/e5f7a2b/)、[《Go语言函数》](/posts/f6a8b3c/)、[《Go语言init与defer》](/posts/a7c9d4e/)、[《Go语言结构体》](/posts/b8d1e5f/)，建议先行阅读。
-
 Go的类型系统简洁但表达力很强。`type` 关键字可以创建自定义类型和类型别名，接口（interface）定义行为契约，类型断言在运行时判断具体类型。这三者构成了Go类型系统的核心。
 
 ---
